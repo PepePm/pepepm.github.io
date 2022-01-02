@@ -11463,7 +11463,8 @@ html {
   position: relative;
   display: block;
   max-width: 25rem;
-  border-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
   overflow: hidden;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -11506,4 +11507,29 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+
+
+.shadow {
+  box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1
+px
+solid #e3e6f0;
+  border-radius: 0.35
+rem
+;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
 }
